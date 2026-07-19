@@ -1,0 +1,80 @@
+:root {
+  --shopez-primary: #ff6600;
+  --shopez-dark: #232f3e;
+  --shopez-light: #f5f7fa;
+  --shopez-success: #16a34a;
+  --shopez-danger: #dc2626;
+}
+
+body {
+  background-color: var(--shopez-light);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.btn-shopez {
+  background-color: var(--shopez-primary);
+  border-color: var(--shopez-primary);
+  color: #fff;
+}
+
+.btn-shopez:hover {
+  background-color: #e65c00;
+  border-color: #e65c00;
+  color: #fff;
+}
+
+.product-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid #e5e7eb;
+  height: 100%;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--shopez-dark) 0%, #37475a 100%);
+  color: #fff;
+  padding: 70px 20px;
+  border-radius: 0 0 24px 24px;
+}
+
+.dashboard-card {
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.status-badge-PENDING { background-color: #f59e0b; }
+.status-badge-PROCESSING { background-color: #3b82f6; }
+.status-badge-SHIPPED { background-color: #8b5cf6; }
+.status-badge-DELIVERED { background-color: #16a34a; }
+.status-badge-CANCELLED { background-color: #dc2626; }
+
+.footer-shopez {
+  background-color: var(--shopez-dark);
+  color: #cbd5e1;
+  padding: 24px 0;
+  margin-top: 60px;
+}
+
+.spinner-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
