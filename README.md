@@ -79,3 +79,5 @@ Once your account has `role: "ADMIN"`, log in and you'll see an "Admin Dashboard
 - Uploaded product images are stored in `server/uploads/` and served statically at `/uploads/<filename>`.
 - The cart is client-side (localStorage) until checkout, at which point an `Order` document is created and product stock is decremented server-side.
 - All private/admin routes are protected by JWT middleware (`authMiddleware.js`) and role middleware (`adminMiddleware.js`).
+- #DEMO VIDEO
+- GOOGLE DRIVE LINK:https://drive.google.com/file/d/1XRbAqsbSubWiTU5cKHeQ-YYuH3_rLRk7/view?usp=drive_link
